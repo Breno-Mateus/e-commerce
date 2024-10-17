@@ -1,12 +1,13 @@
 import Header from "../../components/header"
+import MenuNav from "../../components/menu-nav"
+import CardPromo from "../../components/card-promo"
 
 const Home = () => {
     return (
-        <div>
+        <div className="font-roboto">
             <Header />
-            <div className="bg-black">
-                <h1>olá mundo!</h1>
-            </div>
+            <MenuNav />
+            <CardPromo />
         </div>
     )
 }

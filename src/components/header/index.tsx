@@ -1,4 +1,4 @@
-import Logo from "../../assets/pngwing.com.png"
+import Logo from "../../assets/logo.png"
 import { FaMicrophone } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";

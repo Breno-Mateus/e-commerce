@@ -11,6 +11,9 @@ export default {
         colorSecondary: '#fff',
         colorGray: '#e8e9eb',
       },
+      fontFamily: {
+        'roboto': ['Roboto', 'sans-serif']
+      }
     },
   },
   plugins: [],
