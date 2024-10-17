@@ -1,7 +1,12 @@
+import Header from "../../components/header"
+
 const Home = () => {
     return (
         <div>
-            Home
+            <Header />
+            <div className="bg-black">
+                <h1>olá mundo!</h1>
+            </div>
         </div>
     )
 }
