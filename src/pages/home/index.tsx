@@ -6,7 +6,7 @@ import Footer from "../../components/footer"
 
 const Home = () => {
     return (
-        <div className="font-roboto">
+        <div>
             <Header />
             <MenuNav />
             <CardPromo />

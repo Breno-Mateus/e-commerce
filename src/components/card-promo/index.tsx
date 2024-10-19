@@ -15,7 +15,7 @@ const CardPromo = () => {
 
             <img src={Promo} className="h-auto"/>
 
-            <div className="mt-24">
+            <div className="mt-24 flex flex-col">
                 <p className="line-through">R$ 4.275,99</p>
                 <h1 className="text-2xl font-bold">R$ 3.000</h1>
                 <div className="flex gap-2 items-center">
@@ -23,6 +23,7 @@ const CardPromo = () => {
                     <h1 className="text-2xl font-bold">12x</h1>
                     <p>R$ 250,00</p>
                 </div>
+                <button className="bg-colorPrimary rounded-md text-colorSecondary p-2 hover:bg-opacity-90">Comprar</button>
             </div>
         </div>
     )
