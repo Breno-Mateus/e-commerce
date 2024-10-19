@@ -7,8 +7,8 @@ const BoxProduct = () => {
                 <img src={Product} className=""/>
             </div>
 
-            <div className="p-6">
-                <p className="font-bold">Notebook Asus</p>
+            <div className="flex flex-col gap-2 p-6">
+                <p className="font-bold">Notebook ASUS X515 Celeron Dual Core-N4020 128GB SSD 4GB W11 Home Tela 15,6” LED HD Cinza</p>
                 <p>R$ 1.699,99</p>
             </div>
         </div>
