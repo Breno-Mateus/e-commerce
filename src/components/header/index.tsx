@@ -5,13 +5,13 @@ import { FaRegHeart } from "react-icons/fa";
 import { MdHeadsetMic } from "react-icons/md";
 import { FaShoppingCart } from "react-icons/fa";
 import { BsPersonFill } from "react-icons/bs";
-
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
     return (
         <header className="flex items-center justify-around p-2">
-            <img src={Logo} className="h-12"/>
+            <Link to="/"><img src={Logo} className="h-12"/></Link>
             
             <div className="bg-colorGray flex items-center p-2 rounded-md gap-2">
                 <FaMicrophone />
