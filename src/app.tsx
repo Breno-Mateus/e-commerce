@@ -6,6 +6,7 @@ import SmartHome from "./pages/products/smart-home"
 import SmartphonesTablets from "./pages/products/smartphones-tablets"
 import PerifericosGame from "./pages/products/games-perifericos"
 import EqupamentosAudio from "./pages/products/equipamento-audio"
+import Login from "./pages/login"
 
 const App = () => {
     return (
@@ -18,6 +19,7 @@ const App = () => {
                 <Route path="/perifericos-game" element={<SmartphonesTablets />}/>
                 <Route path="/smart-home" element={<PerifericosGame />}/>
                 <Route path="/smartphones-tablets" element={<EqupamentosAudio />}/>
+                <Route path="/login" element={<Login />}/>
             </Routes>
         </Router>
     )

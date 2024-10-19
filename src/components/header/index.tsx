@@ -22,7 +22,7 @@ const Header = () => {
             <div className="flex items-center gap-4">
                 <FaRegHeart className="text-2xl"/>
                 <MdHeadsetMic className="text-2xl"/>
-                <BsPersonFill className="text-2xl"/>
+                <Link to="/login"><BsPersonFill className="text-2xl"/></Link>
                 <FaShoppingCart className="text-2xl"/>
             </div>
         </header>
